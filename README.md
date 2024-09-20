@@ -86,7 +86,7 @@ class Sale(Base):
     sale_date = Column(String)  
 ```
 
-### Step 4: Create the CLI Interface
+### Step 4: Create the CLI Interface.
 
 
 ### Step 5: Implement CRUD Operations
