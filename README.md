@@ -44,7 +44,7 @@ The application defines the following models:
 - **Sales**: Contains `id`, `book_id`, `quantity`, and `sale_date`.
 - **BookGenres**: A many-to-many relationship table between books and genres.
 
-### Step 3: Implement the ORM Models.
+### Step 3: Implement the ORM Models
 
 The models are defined using SQLAlchemy as shown below:
 
