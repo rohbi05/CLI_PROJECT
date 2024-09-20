@@ -1,4 +1,4 @@
-# Bookstore Managment 
+# Bookstore Ma
 # Bookstore Management System
 
 ## Overview
