@@ -1,4 +1,4 @@
-# Book
+# B
 # Bookstore Management System
 
 ## Overview
