@@ -27,7 +27,7 @@ The Bookstore Management System is a command-line application built with Python 
 2. **Set Up a Virtual Environment**:
    ```bash
    python -m venv bookstore_env
-   source bookstore_env/bin/activate  # On Windows use: bookstore_env\Scripts\activate
+   source bookstore_env/bin/activate  
    ```
 
 3. **Install Required Packages**:
@@ -88,27 +88,6 @@ class Sale(Base):
 
 ### Step 4: Create the CLI Interface
 
-The CLI is created using the Click library:
-
-```python
-import click
-
-@click.group()
-def cli():
-    pass
-
-@cli.command()
-def add_book():
-    """Add a new book to the inventory."""
-    pass
-
-@cli.command()
-def list_books():
-    """List all books in the inventory."""
-    pass
-
-
-```
 
 ### Step 5: Implement CRUD Operations
 
